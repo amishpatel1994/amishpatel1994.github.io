@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
-import ProjectSection from '../components/ProjectSection'
+import ExperienceSection from '../components/ExperienceSection'
 
 
 import pic8 from '../assets/images/pic08.jpg';
@@ -11,7 +11,8 @@ import Scroll from '../components/Scroll';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
-  { id: 'projects', name: 'Projects', icon: 'fa-th' },
+  { id: 'experience', name: 'Work and Education', icon: 'fa-th' },
+  // { id: 'projects', name: 'Projects', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
@@ -33,8 +34,8 @@ const IndexPage = () => (
           </header>
 
           <footer>
-            <Scroll type="id" element={'projects'}>
-              <a href="#projects" className="button">
+            <Scroll type="id" element={'experience'}>
+              <a href="#experience" className="button">
                 Show me
               </a>
             </Scroll>
@@ -42,8 +43,8 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="projects" className="two">
-        <ProjectSection />
+      <section id="experience" className="two">
+        <ExperienceSection />
       </section>
 
       <section id="about" className="three">
