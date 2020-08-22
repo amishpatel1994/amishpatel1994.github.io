@@ -30,7 +30,7 @@ module.exports = {
   ],
   experiences: [
     {
-      title: 'Data Scienctist Intern',
+      title: 'Data Scientist Intern',
       organization: 'Geotab',
       link: 'https://www.geotab.com/',
       date: 'May 2020 - present',
@@ -46,7 +46,7 @@ module.exports = {
       date: 'Feb 2020 - May 2020',
       location: 'Toronto, ON',
       type: 'work',
-      description: 'Classifying multiple sclerosis using OCT (Optical Coherence Tomography)',
+      description: 'Classifying multiple sclerosis using OCT (Optical Coherence Tomography) scans',
       skills: ['pyTorch', '3D CNN', 'Denoising Autoencoder']
     },
     {
@@ -69,7 +69,6 @@ module.exports = {
       description: 'Learning Machine Learning from some of the best in the world! :D',
       skills: ['Machine Learning', 'Blockchain', 'Dynamic A/B testing', 'Neural Networks', 'ML for health']
     },
-    
     {
       title: 'Full Stack Engineer',
       organization: 'theScore, Inc.',
@@ -79,6 +78,16 @@ module.exports = {
       type: 'work',
       description: 'Designed and implemented core API microservices for theScore and theScore Bet',
       skills: ['Phoenix', 'Ruby on Rails', 'PostgreSQL', 'React+Redux', 'AMP HTML', 'ElasticSearch', 'Redis', 'AWS', 'JIRA', 'CircleCI', 'GitHub']
+    },
+    {
+      title: 'BASc. in Computer Engineering with Distinction',
+      organization: 'University of Waterloo',
+      link: 'https://uwaterloo.ca/',
+      data: 'Sep 2012 - Apr 2017',
+      location: 'Waterloo, ON',
+      type: 'education',
+      description: 'Learning CS fundamentals with some hardware based courses',
+      skills: ['Distributed Computing', 'Databases', 'Programming for Performance', 'Data Structures & Algorithms', 'Embedded Systems']
     },
     {
       title: 'Software Engineer Intern',

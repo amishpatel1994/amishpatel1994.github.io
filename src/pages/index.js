@@ -6,14 +6,14 @@ import SideBar from '../components/SideBar';
 import ExperienceSection from '../components/ExperienceSection'
 
 
-import pic8 from '../assets/images/pic08.jpg';
+import pic8 from '../assets/images/portrait.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
+  { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'experience', name: 'Work and Education', icon: 'fa-th' },
   // { id: 'projects', name: 'Projects', icon: 'fa-th' },
-  { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
@@ -27,15 +27,13 @@ const IndexPage = () => (
           <header>
             <h2 className="alt">
               Hi! My name is <strong>Amish</strong> but I'm actually not Amish...
-              <br />
-              Software Engineer + Data Scientist
             </h2>
             <p>Jack of all trades and on my quest to master the software stack</p>
           </header>
 
           <footer>
             <Scroll type="id" element={'experience'}>
-              <a href="#experience" className="button">
+              <a href="#about" className="button">
                 Show me
               </a>
             </Scroll>
@@ -43,11 +41,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="experience" className="two">
-        <ExperienceSection />
-      </section>
-
-      <section id="about" className="three">
+      <section id="about" className="two">
         <div className="container">
           <header>
             <h2>About Me</h2>
@@ -58,16 +52,18 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I found my love for software in first year of undergrad and haven't looked back ever since. 
+            I find thrill in getting my hands dirty with new technologies and pride myself for being a quick learner through a series of internships where I had to learn new things from scratch everytime! 
+            Aside from coding, I am passionate about racquet sports (badminton in particular), photography, and travelling.
           </p>
         </div>
       </section>
+
+      <section id="experience" className="three">
+        <ExperienceSection />
+      </section>
+
+      
 
       <section id="contact" className="four">
         <div className="container">
