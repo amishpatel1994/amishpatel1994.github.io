@@ -22,3 +22,11 @@
   text-align: left;
   color: #000;
 }
+
+.demo-container {
+  float: right;
+}
+
+.demo-container > * {
+  margin: 0px 4px;
+}

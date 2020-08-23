@@ -1,22 +1,20 @@
-const config = require('./config');
-
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: '/portfolio/',
   siteMetadata: {
-    title: config.siteTitle,
+    title: 'Amish Patel',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: config.manifestName,
-        short_name: config.manifestShortName,
-        start_url: config.pathPrefix || config.manifestStartUrl,
-        background_color: config.manifestBackgroundColor,
-        theme_color: config.manifestThemeColor,
-        display: config.manifestDisplay,
-        icon: config.manifestIcon, // This path is relative to the root of the site.
+        name: 'Portfolio',
+        short_name: 'Landing',
+        start_url: `/portfolio/`,
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'standalone',
+        icon: 'src/assets/images/avatar.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
