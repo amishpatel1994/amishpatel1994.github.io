@@ -63,7 +63,7 @@ export default function() {
           config.experiences.map((experience) => (renderTimelineElement(experience)))
         }
         <VerticalTimelineElement
-          iconStyle={{ background: '#3bff80', color: '#fff' }}
+          iconStyle={{ background: '#8ebebc', color: '#fff' }}
           icon={<StarIcon />}
         />
       </VerticalTimeline>

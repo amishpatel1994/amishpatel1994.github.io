@@ -27,7 +27,7 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! My name is <strong>Amish</strong> but I'm actually not Amish...
+              Hi there! My name is <strong>Amish</strong> but I'm actually not Amish...
             </h2>
             <p>Jack of all trades and on my quest to master the software stack</p>
           </header>
