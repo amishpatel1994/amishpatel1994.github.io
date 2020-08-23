@@ -90,7 +90,7 @@ export default {
       skills: ['Distributed Computing', 'Databases', 'Programming for Performance', 'Data Structures & Algorithms', 'Embedded Systems']
     },
     {
-      title: 'Software Engineer Intern',
+      title: 'Software Engineering Intern',
       organization: 'theScore, Inc.',
       link: 'https://www.thescore.com/',
       date: 'Sep 2016 - Dec 2016',
