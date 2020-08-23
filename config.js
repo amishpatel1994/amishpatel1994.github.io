@@ -149,5 +149,11 @@ module.exports = {
       description: 'Developed an iPhone application called The Lup which helps patients with lupus keep track of their progress',
       skills: ['Objective-C', 'JIRA', 'Git']
     }
+  ],
+
+  project: [
+    {
+      title: ''
+    }
   ]
 };
