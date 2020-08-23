@@ -4,7 +4,7 @@
   "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-prologue.git"
+    "url": "git+https://github.com/amishpatel1994/amishpatel1994.github.io.git"
   },
   "author": {
     "name": "Anubhav Srivastava",
@@ -50,7 +50,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-prologue/issues"
+    "url": "https://github.com/amishpatel1994/amishpatel1994.github.io/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-prologue#readme"
+  "homepage": "https://github.com/amishpatel1994/amishpatel1994.github.io#readme"
 }
