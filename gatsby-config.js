@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/portfolio/',
+  pathPrefix: '/',
   siteMetadata: {
     title: 'Amish Patel',
   },
@@ -10,7 +10,7 @@ module.exports = {
       options: {
         name: 'Portfolio',
         short_name: 'Landing',
-        start_url: `/portfolio/`,
+        start_url: `/`,
         background_color: '#663399',
         theme_color: '#663399',
         display: 'standalone',
