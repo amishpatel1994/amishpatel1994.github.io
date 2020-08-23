@@ -79,7 +79,7 @@ const IndexPage = () => (
       <section id="contact" className="five">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Contact Me</h2>
           </header>
 
           <form

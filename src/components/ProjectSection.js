@@ -3,11 +3,8 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import config from '../../config';
 import { Icon } from '@iconify/react';
-import baselineWork from '@iconify/icons-ic/baseline-work';
-import baselineSchool from '@iconify/icons-ic/baseline-school';
 import starFill from '@iconify/icons-bi/star-fill';
 import SkillBadges from './SkillsBadges';
-import githubOctocat from '@iconify/icons-logos/github-octocat';
 import githubIcon from '@iconify/icons-logos/github-icon';
 
 
@@ -37,7 +34,7 @@ export default function() {
               <div className="demo-container">
                 {project.demoLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.demoLink}>Demo!</a> }
                 {project.memoriesLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.memoriesLink}>Memories!</a>}
-                {project.gitLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.gitLink}><Icon icon={githubIcon} /></a>}
+                {project.gitLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.gitLink}><Icon icon={githubIcon} /> </a>}
               </div>
             </VerticalTimelineElement>
           ))
