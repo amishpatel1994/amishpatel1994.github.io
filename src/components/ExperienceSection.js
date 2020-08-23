@@ -11,7 +11,7 @@ import starFill from '@iconify/icons-bi/star-fill';
 export default function() {
   const renderSkillBadges = (skills) => {
     return skills.map((skill) => (
-      <p className="skill-badge">
+      <p className="skill-badge" key={skill}>
         {skill}
       </p>
     ))
@@ -20,7 +20,7 @@ export default function() {
   const renderTimelineElement = (experience) => {
     if(experience.type === 'work') {
       return (
-        <VerticalTimelineElement
+        <VerticalTimelineElement key={`${experience.title}-${experience.organization}`}
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#86b2d6', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid #86b2d6' }}
@@ -36,7 +36,7 @@ export default function() {
       )
     } else {
       return (
-        <VerticalTimelineElement
+        <VerticalTimelineElement key={`${experience.title}-${experience.organization}`}
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#f9b9a3', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid #f9b9a3' }}
@@ -62,7 +62,7 @@ export default function() {
         {
           config.experiences.map((experience) => (renderTimelineElement(experience)))
         }
-        <VerticalTimelineElement
+        <VerticalTimelineElement key="experience-start"
           iconStyle={{ background: '#8ebebc', color: '#fff' }}
           icon={<Icon icon={starFill} />}
         />

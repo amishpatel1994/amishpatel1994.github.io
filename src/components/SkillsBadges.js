@@ -5,7 +5,7 @@ export default function({ skills = [] }) {
     <div className="skills-container">
       {
         skills.map((skill) => (
-          <p className="skill-badge">
+          <p className="skill-badge" key={skill}>
             {skill}
           </p>
         ))

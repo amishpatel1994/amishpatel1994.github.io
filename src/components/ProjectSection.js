@@ -17,7 +17,7 @@ export default function() {
       <VerticalTimeline layout="1-column">
         {
           config.projects.map((project) => (
-            <VerticalTimelineElement
+            <VerticalTimelineElement key={`${project.title}-${project.type}`}
               className="vertical-timeline-element--education"
               contentStyle={{ background: '#8ebebc', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid #8ebebc' }}
