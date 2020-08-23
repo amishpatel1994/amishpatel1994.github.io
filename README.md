@@ -19,11 +19,5 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 ### Acknowledgments
 
 Huge shoutout to the following two folks for helping me kickstart my own portfolio website:
-* (@anubhavsrivastava)[https://github.com/anubhavsrivastava/gatsby-starter-prologue] for the starter template 
-* (@stephane-monnot)[https://github.com/stephane-monnot/react-vertical-timeline] for the react vertical timeline component
-
-### License
-
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
-
-refer `LICENSE` file in this repository.
+* [@anubhavsrivastava](https://github.com/anubhavsrivastava/gatsby-starter-prologue) for the starter template 
+* [@stephane-monnot](https://github.com/stephane-monnot/react-vertical-timeline) for the react vertical timeline react component
