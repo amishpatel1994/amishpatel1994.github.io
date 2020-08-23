@@ -4,11 +4,10 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 import ExperienceSection from '../components/ExperienceSection'
-
+import ProjectSection from '../components/ProjectSection';
 
 import pic8 from '../assets/images/portrait.jpg';
 import Scroll from '../components/Scroll';
-import ProjectSection from '../components/ProjectSection';
 import './index.scss';
 
 const sections = [
@@ -83,26 +82,20 @@ const IndexPage = () => (
             <h2>Contact</h2>
           </header>
 
-          <p>
-            
-          </p>
-
-          <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
-          </form>
+          <form
+            action="https://formspree.io/amishpatel94@hotmail.com"
+            method="POST"
+          >
+          <label>
+            Your email:
+            <input type="text" name="_replyto" />
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
         </div>
       </section>
     </div>

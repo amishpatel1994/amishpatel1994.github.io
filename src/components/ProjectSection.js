@@ -35,9 +35,9 @@ export default function() {
                 <SkillBadges skills={project.skills} />
               </div>
               <div className="demo-container">
-                {project.gitLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.gitLink}><Icon icon={githubIcon} /></a>}
                 {project.demoLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.demoLink}>Demo!</a> }
                 {project.memoriesLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.memoriesLink}>Memories!</a>}
+                {project.gitLink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={project.gitLink}><Icon icon={githubIcon} /></a>}
               </div>
             </VerticalTimelineElement>
           ))
