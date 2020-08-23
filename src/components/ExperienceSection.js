@@ -55,7 +55,7 @@ export default function() {
   return (
     <div className="container">
       <header>
-        <h2>Experiences</h2>
+        <h2>Work & Education</h2>
       </header>
 
       <VerticalTimeline layout="1-column">

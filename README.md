@@ -2,9 +2,6 @@
 
 This is my portfolio made with <3 using reactjs and gatsby.
 
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
 
 ### Personalization
 
