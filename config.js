@@ -83,7 +83,7 @@ module.exports = {
       title: 'BASc. in Computer Engineering with Distinction',
       organization: 'University of Waterloo',
       link: 'https://uwaterloo.ca/',
-      data: 'Sep 2012 - Apr 2017',
+      date: 'Sep 2012 - Apr 2017',
       location: 'Waterloo, ON',
       type: 'education',
       description: 'Learning CS fundamentals with some hardware based courses',
@@ -150,10 +150,7 @@ module.exports = {
       skills: ['Objective-C', 'JIRA', 'Git']
     }
   ],
+  projects: [
 
-  project: [
-    {
-      title: ''
-    }
   ]
 };

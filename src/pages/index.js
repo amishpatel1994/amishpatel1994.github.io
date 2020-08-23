@@ -9,6 +9,7 @@ import ExperienceSection from '../components/ExperienceSection'
 import pic8 from '../assets/images/portrait.jpg';
 import Scroll from '../components/Scroll';
 import ProjectSection from '../components/ProjectSection';
+import './index.scss';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -57,10 +58,10 @@ const IndexPage = () => (
             I find thrill in getting my hands dirty with new technologies and pride myself for being a quick learner which is evident through a series of internships where I had to learn new tools from scratch everytime! 
           </p>
           <p>
-            If you ask me for one characteristic that I am a big advocate of, it has to lifelong learning. This not only ensures that you stay competitive in an ever evolving world we live in, but also affects your mental wellbeing in a positive manner.
+            If you ask me for one characteristic that I am a big advocate of, it has to be lifelong learning. This not only ensures that you stay competitive in an ever evolving world, but also affects your mental wellbeing in a positive manner.
           </p>
           <p>
-            Aside from coding, I am passionate about racquet sports (badminton in particular), photography, and travelling with loved ones. My favorite photo which I've taken is located at the top as the background :D. Also, my favorite place I've been to is Cinque Terra in Italy which is where the above profile picture is taken.
+            Aside from coding, I am passionate about racquet sports (badminton in particular), photography, and travelling with loved ones. My favourite photo taken by me is located at the top as the background :D. Also, my favourite place I've been to so far is Cinque Terra in Italy which is where the above profile picture is from.
           </p>
           <p>
             That's it from me for now! If you have an impactful project you'd love for me to be a part of, please shoot me a message <Scroll type="id" element={"contact"}><a href="#contact"> below.</a></Scroll>

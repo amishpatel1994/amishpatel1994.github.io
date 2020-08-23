@@ -7,8 +7,8 @@
 .skill-badge {
   align-self: flex-start;
   background-color: #e27689;
-  padding: 5px;
-  margin: 5px !important;
+  padding: 0 4px;
+  margin: 2px !important;
   border-radius: 3px;
 }
 
@@ -16,4 +16,9 @@
   float: left;
   padding: 0;
   opacity: 1;
+}
+
+.vertical-timeline-element-description {
+  text-align: left;
+  color: #000;
 }
