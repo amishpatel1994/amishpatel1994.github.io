@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ffc9564a-3d4c-42f8-a8c3-7d20c556d19a/deploy-status)](https://app.netlify.com/sites/elastic-chandrasekhar-86906e/deploys)
+
 # Portfolio
 
 This is my portfolio made with <3 using reactjs and gatsby.

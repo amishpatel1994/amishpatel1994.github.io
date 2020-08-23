@@ -15,7 +15,7 @@ export default function Nav({ sections = [] }) {
             return (
               <li key={s.id}>
                 <Scroll type="id" element={s.id}>
-                  <a href={`#${s.id}`} id="top-link" target="_blank" rel="noreferrer">
+                  <a href={`#${s.id}`} id="top-link">
                     <span className={`icon ${s.icon}`}>{s.name}</span>
                   </a>
                 </Scroll>
