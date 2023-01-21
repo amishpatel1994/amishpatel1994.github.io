@@ -9,7 +9,7 @@ import iotPlatform from '@iconify/icons-carbon/iot-platform';
 
 export default {
   authorName: 'Amish',
-  heading: 'Software Engineer | Data Scientist',
+  heading: 'Software Engineer',
   // social
   socialLinks: [
     {
@@ -30,10 +30,30 @@ export default {
   ],
   experiences: [
     {
+      title: 'Senior Software Developer',
+      organization: 'theScore, Inc.',
+      link: 'https://www.thescore.com/',
+      date: 'Sep 2020 - present',
+      location: 'Toronto, ON',
+      type: 'work',
+      description: 'Continued efforts on adding new enhancements to the promotions engine with a focus on mentorship, observability and performance optimizations',
+      skills: ['Elixir', 'Phoenix', 'PostgreSQL', 'Redis', 'GCP', 'JIRA', 'GitHub', 'Docker', 'CircleCI', 'DataDog', 'Splunk']
+    },
+    {
+      title: 'Software Developer',
+      organization: 'theScore, Inc.',
+      link: 'https://www.thescore.com/',
+      date: 'Jan 2020 - Sep 2020',
+      location: 'Toronto, ON',
+      type: 'work',
+      description: 'Designed and implemented promotions engine for theScore Bet Platform',
+      skills: ['Elixir', 'Phoenix', 'PostgreSQL', 'GCP', 'JIRA', 'GitHub', 'Docker', 'CircleCI', 'DataDog', 'Splunk']
+    },
+    {
       title: 'Data Scientist Intern',
       organization: 'Geotab',
       link: 'https://www.geotab.com/',
-      date: 'May 2020 - present',
+      date: 'May 2020 - December 2020',
       location: 'Oakville, ON',
       type: 'work',
       description: 'Collision detection research and building ML pipeline around it',
