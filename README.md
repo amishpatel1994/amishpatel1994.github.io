@@ -4,6 +4,8 @@
 
 This is my portfolio made with <3 using reactjs and gatsby.
 
+The website is [live](https://amishpatel.work/)!
+
 
 ### Personalization
 
