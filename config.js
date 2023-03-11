@@ -33,21 +33,21 @@ export default {
       title: 'Senior Software Developer',
       organization: 'theScore, Inc.',
       link: 'https://www.thescore.com/',
-      date: 'Sep 2020 - present',
+      date: 'Sep 2021 - present',
       location: 'Toronto, ON',
       type: 'work',
-      description: 'Continued efforts on adding new enhancements to the promotions engine with a focus on mentorship, observability and performance optimizations',
-      skills: ['Elixir', 'Phoenix', 'PostgreSQL', 'Redis', 'GCP', 'JIRA', 'GitHub', 'Docker', 'CircleCI', 'DataDog', 'Splunk']
+      description: 'Continued efforts on adding new enhancements to the promotions engine with a focus on technical leadership, mentoring, observability, and performance optimizations',
+      skills: ['Elixir', 'Phoenix', 'PostgreSQL', 'Redis', 'Apache Kafka', 'Apache Airflow', 'DBT', 'RedShift', 'GCP', 'JIRA', 'GitHub', 'Docker', 'CircleCI', 'DataDog', 'Splunk']
     },
     {
       title: 'Software Developer',
       organization: 'theScore, Inc.',
       link: 'https://www.thescore.com/',
-      date: 'Jan 2020 - Sep 2020',
+      date: 'Jan 2021 - Sep 2021',
       location: 'Toronto, ON',
       type: 'work',
       description: 'Designed and implemented promotions engine for theScore Bet Platform',
-      skills: ['Elixir', 'Phoenix', 'PostgreSQL', 'GCP', 'JIRA', 'GitHub', 'Docker', 'CircleCI', 'DataDog', 'Splunk']
+      skills: ['Elixir', 'Phoenix', 'PostgreSQL', 'Apache Kafka', 'GCP', 'JIRA', 'GitHub', 'Docker', 'CircleCI', 'DataDog', 'Splunk']
     },
     {
       title: 'Data Scientist Intern',
